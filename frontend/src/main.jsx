@@ -5,14 +5,14 @@ import { BrowserRouter } from 'react-router-dom';
 import StoreContextProvider from './context/StoreContext.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <BrowserRouter
-  future={{
-    v7_startTransition: true,
-    v7_relativeSplatPath: true,
-  }}
+   <BrowserRouter
+    future={{
+      v7_startTransition: true,
+      v7_relativeSplatPath: true,
+    }}
   >
+    <StoreContextProvider>
       <App />
     </StoreContextProvider>
-  </BrowserRouter>
+     </BrowserRouter>
 );
