@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Add.css"
 import axios from "axios";
-import { assets } from '../../assets/admin_assets/assets'
+import { assets } from '../../assets/admin_assets/assets.js'
 import { toast } from 'react-toastify';
 const Add = ({url}) => {
     
