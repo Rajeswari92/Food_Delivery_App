@@ -1,0 +1,3 @@
+admin-host-link: https://food-delivery-app-admin-qx3w.onrender.com
+frontend-host-link: https://food-delivery-app-frontend-xazt.onrender.com
+backend-link: https://food-delivery-app-backend-1i5f.onrender.com
